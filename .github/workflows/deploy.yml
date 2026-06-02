@@ -34,8 +34,8 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
           region: us-east-1
-          application_name: my-app
-          environment_name: My-app-env
+          application_name: myapp
+          environment_name: Myapp-env
           version_label: v-${{ github.run_number }}
           deployment_package: deploy.zip
           wait_for_deployment: false
